@@ -45,4 +45,23 @@ a:visited {
 
 /*FORM STYLES
 =======================================*/
-/*TODO: Add the CSS needed to style the form*/
+/*DONE: Add the CSS needed to style the form*/
+
+form #new-form {
+  background-color: blue;
+}
+
+label {
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 10px 10px;
+  border-bottom: blue;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px 10px;
+}
